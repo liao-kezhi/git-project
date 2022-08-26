@@ -31,7 +31,7 @@
 
 系统界面效果如下：
 
-![image-20220824151139469](C:\Users\dfghkl\AppData\Roaming\Typora\typora-user-images\image-20220824151139469.png)
+![00](system_purture/00.png)
 
 需根据用户不同的选择，完成不同的功能！
 
@@ -54,15 +54,15 @@
 
 填写项目名称以及项目路径，点击确定
 
-![02](E:/技术学习资料/C++学习笔记/system_purture/02.png)
+![02](system_purture/02.png)
 
 ### 2.2 添加文件
 
 右键源文件，进行添加文件操作
 
-![03](E:/技术学习资料/C++学习笔记/system_purture/03.png)
+![03](system_purture/03.png)
 
-![04](E:/技术学习资料/C++学习笔记/system_purture/04.png)
+![04](system_purture/04.png)
 
 
 
@@ -84,7 +84,7 @@
 
 在头文件和源文件的文件夹下分别创建workerManager.h 和 workerManager.cpp文件
 
-![05](E:/技术学习资料/C++学习笔记/system_purture/05.png)
+![05](system_purture/05.png)
 
 
 
@@ -144,7 +144,7 @@ WorkerManager::~WorkerManager()
 
 在管理类workerManager.h中添加成员函数  `void Show_Menu();`
 
-![07](E:/技术学习资料/C++学习笔记/system_purture/07.png)
+![07](system_purture/07.png)
 
 
 
@@ -200,7 +200,7 @@ int main()
 
 **运行结果**
 
-![06](E:/技术学习资料/C++学习笔记/system_purture/06.png)
+![06](system_purture/06.png)
 
 
 
@@ -285,7 +285,7 @@ void WorkerManager:: exitSystem()
 
 
 
-![08](E:/技术学习资料/C++学习笔记/system_purture/08.png)
+![08](system_purture/08.png)
 
 
 
@@ -574,7 +574,7 @@ int main()
 
 运行效果如图：
 
-![09](E:/技术学习资料/C++学习笔记/system_purture/09.png)
+![09](system_purture/09.png)
 
 
 
@@ -592,7 +592,7 @@ int main()
 
 如果想在程序中维护这个不定长度的数组，可以将数组创建到堆区，并利用Worker **的指针维护
 
-![10](E:/技术学习资料/C++学习笔记/system_purture/10.png)
+![10](system_purture/10.png)
 
 ### 7.2 功能实现
 
@@ -717,11 +717,11 @@ void WorkerManager::Add_Emp()
 
 在main函数分支 1  选项中，调用添加职工接口
 
-![12](E:/技术学习资料/C++学习笔记/system_purture/12.png)
+![12](system_purture/12.png)
 
 测试结果如下：
 
-![11](E:/技术学习资料/C++学习笔记/system_purture/11.png)
+![11](system_purture/11.png)
 
 至此，添加职工到程序中功能实现完毕
 
@@ -785,7 +785,7 @@ void WorkerManager::save()
 
 在添加职工功能中添加成功后添加保存文件函数
 
-![13](E:/技术学习资料/C++学习笔记/system_purture/13.png)
+![13](system_purture/13.png)
 
 
 
@@ -866,7 +866,7 @@ WorkerManager::WorkerManager()
 
 追加代码位置如图：
 
-![18](E:/技术学习资料/C++学习笔记/system_purture/18.png)
+![18](system_purture/18.png)
 
 将文件创建后清空文件内容，并测试该情况下初始化功能
 
@@ -883,7 +883,7 @@ WorkerManager::WorkerManager()
 		this->m_FileIsEmpty = false;
 ```
 
-![19](E:/技术学习资料/C++学习笔记/system_purture/19.png)
+![19](system_purture/19.png)
 
 
 
@@ -935,7 +935,7 @@ int WorkerManager::get_EmpNum()
 
 添加一些职工数据，测试获取职工数量函数
 
-![20](E:/技术学习资料/C++学习笔记/system_purture/20.png)
+![20](system_purture/20.png)
 
 ## 10、显示职工
 
@@ -986,7 +986,7 @@ void WorkerManager::Show_Emp()
 
 在main函数分支 2  选项中，调用显示职工接口
 
-![17](E:/技术学习资料/C++学习笔记/system_purture/17.png)
+![17](system_purture/17.png)
 
 测试时分别测试 文件为空和文件不为空两种情况
 
@@ -994,11 +994,11 @@ void WorkerManager::Show_Emp()
 
 测试1-文件不存在或者为空情况
 
-![16](E:/技术学习资料/C++学习笔记/system_purture/16.png)
+![16](system_purture/16.png)
 
 测试2 - 文件存在且有记录情况
 
-![15](E:/技术学习资料/C++学习笔记/system_purture/15.png)
+![15](system_purture/15.png)
 
 测试完毕，至此，显示所有职工信息功能实现
 
@@ -1112,31 +1112,31 @@ void WorkerManager::Del_Emp()
 
 在main函数分支 3  选项中，调用删除职工接口
 
-![21](E:/技术学习资料/C++学习笔记/system_purture/21.png)
+![21](system_purture/21.png)
 
 
 
 测试1 - 删除不存在职工情况
 
-![22](E:/技术学习资料/C++学习笔记/system_purture/22.png)
+![22](system_purture/22.png)
 
-![23](E:/技术学习资料/C++学习笔记/system_purture/23.png)
+![23](system_purture/23.png)
 
 测试2 - 删除存在的职工情况
 
 删除成功提示图：
 
-![24](E:/技术学习资料/C++学习笔记/system_purture/24.png)
+![24](system_purture/24.png)
 
 再次显示所有职工信息，确保已经删除
 
 
 
-![25](E:/技术学习资料/C++学习笔记/system_purture/25.png)
+![25](system_purture/25.png)
 
 查看文件中信息，再次核实员工已被完全删除
 
-![26](E:/技术学习资料/C++学习笔记/system_purture/26.png)
+![26](system_purture/26.png)
 
 至此，删除职工功能实现完毕！
 
@@ -1245,25 +1245,25 @@ void WorkerManager::Mod_Emp()
 
 
 
-![27](E:/技术学习资料/C++学习笔记/system_purture/27.png)
+![27](system_purture/27.png)
 
 测试1 - 修改不存在职工情况
 
-![28](E:/技术学习资料/C++学习笔记/system_purture/28.png)
+![28](system_purture/28.png)
 
-![29](E:/技术学习资料/C++学习笔记/system_purture/29.png)
+![29](system_purture/29.png)
 
 测试2 - 修改存在职工情况，例如将职工 "赵四" 改为 "周六"
 
-![30](E:/技术学习资料/C++学习笔记/system_purture/30.png)
+![30](system_purture/30.png)
 
 修改后再次查看所有职工信息，并确认修改成功
 
-![31](E:/技术学习资料/C++学习笔记/system_purture/31.png)
+![31](system_purture/31.png)
 
 再次确认文件中信息也同步更新
 
-![32](E:/技术学习资料/C++学习笔记/system_purture/32.png)
+![32](system_purture/32.png)
 
 至此，修改职工功能已实现！
 
@@ -1377,33 +1377,33 @@ void WorkerManager::Find_Emp()
 
 在main函数分支 5  选项中，调用查找职工接口
 
-![33](E:/技术学习资料/C++学习笔记/system_purture/33.png)
+![33](system_purture/33.png)
 
 测试1 - 按照职工编号查找 - 查找不存在职工
 
-![34](E:/技术学习资料/C++学习笔记/system_purture/34.png)
+![34](system_purture/34.png)
 
 测试2 - 按照职工编号查找 -  查找存在职工
 
-![35](E:/技术学习资料/C++学习笔记/system_purture/35.png)
+![35](system_purture/35.png)
 
-![36](E:/技术学习资料/C++学习笔记/system_purture/36.png)
+![36](system_purture/36.png)
 
 测试3 - 按照职工姓名查找 - 查找不存在职工
 
-![37](E:/技术学习资料/C++学习笔记/system_purture/37.png)
+![37](system_purture/37.png)
 
 
 
 测试4 - 按照职工姓名查找 - 查找存在职工（如果出现重名，也一并显示，在文件中可以添加重名职工）
 
-![38](E:/技术学习资料/C++学习笔记/system_purture/38.png)
+![38](system_purture/38.png)
 
 例如 添加两个张三的职工，然后按照姓名查找张三
 
-![39](E:/技术学习资料/C++学习笔记/system_purture/39.png)
+![39](system_purture/39.png)
 
-![40](E:/技术学习资料/C++学习笔记/system_purture/40.png)
+![40](system_purture/40.png)
 
 至此，查找职工功能实现完毕！
 
@@ -1498,35 +1498,35 @@ void WorkerManager::Sort_Emp()
 
 在main函数分支 6  选项中，调用排序职工接口
 
-![42](E:/技术学习资料/C++学习笔记/system_purture/42.png)
+![42](system_purture/42.png)
 
 测试：
 
 首先我们添加一些职工，序号是无序的，例如：
 
-![41](E:/技术学习资料/C++学习笔记/system_purture/41.png)
+![41](system_purture/41.png)
 
 
 
 测试 - 升序排序
 
-![43](E:/技术学习资料/C++学习笔记/system_purture/43.png)
+![43](system_purture/43.png)
 
 文件同步更新
 
 
 
-![44](E:/技术学习资料/C++学习笔记/system_purture/44.png)
+![44](system_purture/44.png)
 
 
 
 测试 - 降序排序
 
-![45](E:/技术学习资料/C++学习笔记/system_purture/45.png)
+![45](system_purture/45.png)
 
 文件同步更新
 
-![46](E:/技术学习资料/C++学习笔记/system_purture/46.png)
+![46](system_purture/46.png)
 
 至此，职工按照编号排序的功能实现完毕！
 
@@ -1604,21 +1604,21 @@ void WorkerManager::Clean_File()
 
 在main函数分支 7  选项中，调用清空文件接口
 
-![47](E:/技术学习资料/C++学习笔记/system_purture/47.png)
+![47](system_purture/47.png)
 
 测试：确认清空文件
 
-![48](E:/技术学习资料/C++学习笔记/system_purture/48.png)
+![48](system_purture/48.png)
 
 再次查看文件中数据，记录已为空
 
-![49](E:/技术学习资料/C++学习笔记/system_purture/49.png)
+![49](system_purture/49.png)
 
 打开文件，里面数据已确保清空，该功能需要慎用！
 
-![50](E:/技术学习资料/C++学习笔记/system_purture/50.png)
+![50](system_purture/50.png)
 
-![51](E:/技术学习资料/C++学习笔记/system_purture/51.png)
+![51](system_purture/51.png)
 
 随着清空文件功能实现，本项目作完毕  
 
