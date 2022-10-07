@@ -1,0 +1,13 @@
+chooselevelscence.o
+dataconfig.o
+main.o
+mainscene.o
+mycoin.o
+mypushbutton.o
+playscene.o
+qrc_res.o
+moc_chooselevelscence.o
+moc_dataconfig.o
+moc_mainscene.o
+moc_mycoin.o
+moc_playscene.o
